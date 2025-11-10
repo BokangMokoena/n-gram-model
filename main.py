@@ -5,7 +5,6 @@ from nltk.corpus import brown
 
 # this is the main function of the project
 def main():
-    # print('Welcome to Bokang\'s Language Model!')
     n = 3
     
     # Get tokens from the Brown Corpus and convert to lowercase
@@ -21,5 +20,6 @@ def main():
 
     # get input and predict next word
     predict_next(n, ngram_probs)
+
 
 main()
